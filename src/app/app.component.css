@@ -1,0 +1,23 @@
+* {
+  Font-Family: "Helvetica";
+}
+
+ngx-dropzone, ngx-dropzone-image-preview, ngx-dropzone-label {
+  width:100% !important;
+  max-width: 100% !important;
+
+}
+
+ngx-dropzone {
+  height:80vh !important;
+  max-height: 80vh !important;
+}
+
+ngx-dropzone-image-preview {
+  height:70vh !important;
+  max-height: 70vh !important;
+}
+
+h1, h2 {
+  text-align: center;
+}

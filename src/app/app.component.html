@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+
+<ngx-dropzone (change)="fileChange($event)" accept=".jpg,.png">
+  <ngx-dropzone-label>Click Here or drag and drop file here to identify</ngx-dropzone-label>
+  <ngx-dropzone-image-preview ngProjectAs="ngx-dropzone-preview" *ngFor="let f of files" [file]="f">
+  </ngx-dropzone-image-preview>
+</ngx-dropzone>
+
+<h2>{{celebName}}</h2>
