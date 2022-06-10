@@ -50,5 +50,5 @@ Start Angular Server
 ng serve
 ```
 
-Visit `[http://localhost:4200/](http://localhost:4200/)` in your browser.
+Visit [http://localhost:4200/](http://localhost:4200/) in your browser.
 From here, you can drag and drop any image onto the page to identify the celebrity.
