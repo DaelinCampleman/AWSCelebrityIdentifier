@@ -52,3 +52,7 @@ ng serve
 
 Visit [http://localhost:4200/](http://localhost:4200/) in your browser.
 From here, you can drag and drop any image onto the page to identify the celebrity.
+
+## Guides used
+
+[AWS Rekognition Documentation](https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html)
