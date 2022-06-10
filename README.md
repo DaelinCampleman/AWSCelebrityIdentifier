@@ -2,6 +2,8 @@
 
 App to identify celebrities from an image.
 
+Explanation and setup video: [https://drive.google.com/file/d/1T_2t5iOQcHapqkDuDQ4bD2V6Nlmt8DTV/view?usp=sharing](https://drive.google.com/file/d/1T_2t5iOQcHapqkDuDQ4bD2V6Nlmt8DTV/view?usp=sharing)
+
 Live demo: [https://celebrityidentifier.campleman.co.za](https://celebrityidentifier.campleman.co.za)
 
 GitHub Repo: [https://github.com/DaelinCampleman/AWSCelebrityIdentifier](https://github.com/DaelinCampleman/AWSCelebrityIdentifier)
