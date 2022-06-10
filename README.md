@@ -10,6 +10,9 @@ GitHub Repo: [https://github.com/DaelinCampleman/AWSCelebrityIdentifier](https:/
 
 ## Prerequisates
 
+- Node.js
+[https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+
 - Angular CLI
 ```bash
 $ npm install -g @angular/cli
