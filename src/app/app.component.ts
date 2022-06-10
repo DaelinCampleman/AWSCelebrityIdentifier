@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
 
-import { RecognizeCelebritiesCommand, RecognizeCelebritiesCommandInput } from  "@aws-sdk/client-rekognition";
+import { RecognizeCelebritiesCommand } from  "@aws-sdk/client-rekognition";
 import * as AWS from "@aws-sdk/client-rekognition";
 import AWSConfig from 'src/aws-exports';
 import { HttpClient } from '@angular/common/http';
-
-const REGION = "us-east-1";
 
 const rekogClient = new AWS.RekognitionClient(AWSConfig);
 @Component({
