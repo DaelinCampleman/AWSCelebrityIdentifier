@@ -1,27 +1,45 @@
-# Celeb
+# AWS Celebrity Identifier
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
-## Development server
+## Prerequisates
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular CLI
+```bash
+$ npm install -g @angular/cli
+```
 
-## Code scaffolding
+- AWS IAM user with permission to access AWS Rekognition
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+Download the code from this repository to a directory.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Download required modules:
+```bash
+$ npm install
+```
 
-## Running unit tests
+Update `aws-exports.ts` file with your AWS region and IAM user keys.
+```javascript
+ const AWSConfig = {
+  region: "", // e.g. us-east-1
+  credentials: {
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "region": "" // e.g. us-east-1
+  }
+};
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+export default AWSConfig;
+```
 
-## Running end-to-end tests
+## Usage
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Start Angular Server
+```bash
+$ ng serve
+```
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Visit `http://localhost:4200/` in your browser.
+From here, you can drag and drop any image onto the page to identify the celebrity.
