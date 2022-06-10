@@ -1,6 +1,8 @@
 # AWS Celebrity Identifier
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+App to identify celebrities from an image.
+
+Live demo: [https://celebrityidentifier.campleman.co.za](https://celebrityidentifier.campleman.co.za)
 
 ## Prerequisates
 
