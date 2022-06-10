@@ -4,6 +4,8 @@ App to identify celebrities from an image.
 
 Live demo: [https://celebrityidentifier.campleman.co.za](https://celebrityidentifier.campleman.co.za)
 
+GitHub Repo: [https://github.com/DaelinCampleman/AWSCelebrityIdentifier](https://github.com/DaelinCampleman/AWSCelebrityIdentifier)
+
 ## Prerequisates
 
 - Angular CLI
